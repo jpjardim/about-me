@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">About Me</string>
+    <string name="name">Paulo Jardim</string>
+    <string name="yellow_star">Yellow Star</string>
+    <string name="bio">Hi my name is Paulo Jardim.\n\nI am an aspiring Android Developer, currently going through the Developing Android Apps course from Udacity.\n\nI work as Tech Support Manager, but my goal is to transition into an Android Dev role in 2022.\n\nI live in Dun Laoghaire; a city right next to Dublin, Ireland.\n\nDun Laoghaire is very residential, and it has a beautiful marina with a lovely pier.\n\nI enjoy going on long walks around Dun Laoghaire, as well as other parts of the city.</string>
+    <string name="avatar_image">Avatar Image</string>
+    <string name="what_is_your_nickname">What is your nickname?</string>
+    <string name="done">Done</string>
 </resources>
