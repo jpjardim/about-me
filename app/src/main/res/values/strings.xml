@@ -6,4 +6,5 @@
     <string name="avatar_image">Avatar Image</string>
     <string name="what_is_your_nickname">What is your nickname?</string>
     <string name="done">Done</string>
+    <string name="hide">Hide/Show</string>
 </resources>

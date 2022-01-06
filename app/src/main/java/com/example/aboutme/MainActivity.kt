@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         findViewById<Button>(R.id.done_button).setOnClickListener {addNickname(it)}
+        findViewById<Button>(R.id.hide_button).setOnClickListener {hideShowBio(it)}
     }
 
     private fun addNickname(view: View) {
@@ -30,5 +31,14 @@ class MainActivity : AppCompatActivity() {
         val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
         imm.hideSoftInputFromWindow(view.windowToken, 0)
 
+    }
+
+    private fun hideShowBio(view: View) {
+        val bio = findViewById<TextView>(R.id.bio_text)
+
+        when(bio.visibility) {
+            View.GONE -> bio.visibility = View.VISIBLE
+            View.VISIBLE -> bio.visibility = View.GONE
+        }
     }
 }
